@@ -1,6 +1,4 @@
-###################
-##  Problem 1.1	 ##
-###################
+import random
 
 def phi_1(age, feedback):
     age_encoding = {0: range(0,20),
@@ -26,11 +24,6 @@ def phi_1(age, feedback):
     
     return feature_vector
 
-###################
-##  Problem 1.2	 ##
-###################
-
-import random
 
 '''
 The logs are formatted in the following way
